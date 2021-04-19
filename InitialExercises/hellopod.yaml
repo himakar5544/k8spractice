@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-pod
+spec:
+  containers:
+    - image: httpd
+      name: wedserver
+      ports:
+        - containerport: 80
+          name: webserver-port
