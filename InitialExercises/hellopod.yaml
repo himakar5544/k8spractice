@@ -8,5 +8,5 @@ spec:
     - image: httpd
       name: wedserver
       ports:
-        - containerport: 80
+        - containerPort: 80
           name: webserver-port
