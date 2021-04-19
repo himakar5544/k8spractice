@@ -8,7 +8,7 @@ spec:
     - name: podslimits
       image: httpd
       ports:
-        containerPort: 80
+        - containerPort: 80
       resources:
         limits:
           memory: "128Mi"
